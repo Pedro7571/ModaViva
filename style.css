@@ -227,10 +227,7 @@ body {
 }
 
 /* Seção Sobre */
-@font-face {
-  font-family: "recursive";
-  src: url(./fonts/ConcertOne-Regular.ttf);
-}
+
 .sobre {
   display: flex;
   flex-wrap: wrap;
@@ -238,6 +235,7 @@ body {
   background-color: #f0f0f0;
   gap: 2rem;
   align-items: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .img-equipe img {
@@ -419,6 +417,7 @@ button,
 }
 
 /* Redes Sociais */
+
 .redes-sociais {
   height: 50%;
   display: flex;
@@ -603,9 +602,9 @@ section.newsletter {
       .razao-image-container, .razao-text {
         flex: 1 1 100%;
       }
-      .razao-image-container img {
+      .razao-image-container img {  
         max-width: 100%;
-      }
+      }c
       .razao-gallery {
         grid-template-columns: 1fr;
       }
@@ -618,7 +617,7 @@ section.newsletter {
         max-width: 1200px;
       }
       section.marca-section {
-        max-width: 1200px;
+        max-width: 1200px;  
       }
       section.servicos .container {
         max-width: 1200px;
@@ -630,3 +629,4 @@ section.newsletter {
         max-width: 720px;
       }
     }
+    
