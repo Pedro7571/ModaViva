@@ -26,9 +26,9 @@
 
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ROUPAS</a></li>
-                <li><a href="#">AJUDA</a></li>
-                <li><a href="#">SOBRE</a></li>
+                <li><a href="#cards">ROUPAS</a></li>
+                <li><a href="#newsletter">AJUDA</a></li>
+                <li><a href="#texto-sobre">SOBRE</a></li>
             </ul>
             <div class="search-container">
                 <input type="search" placeholder="Procure seus produtos..." aria-label="Pesquisar" />
@@ -44,6 +44,7 @@
                 <button class="btn btn-primary" type="button">CADASTRE-SE</button>
             </div>
         </nav>
+     
         <div class="banner">
             <img src="./imgs/Moda viva capa.png" alt="Banner principal">
         </div>
@@ -54,7 +55,7 @@
         <div class="img-equipe">
             <img src="./imgs/foto grupo.png" alt="Equipe Moda Viva">
         </div>
-        <div class="texto-sobre">
+        <div id="texto-sobre" class="texto-sobre">
             <h2><span>Sobre</span> a nossa agência</h2>
             
             <p>Nossa empresa de moda sustentável tem como principal objetivo criar roupas e acessórios com o menor
@@ -71,9 +72,9 @@
   <section id="parallax"></section>
     <!-- Serviços -->
     <section class="servicos">
-        <h2><span>Nossos</span> Serviços</h2>
-        <div class="cards">
-            <div class="card">
+        <h2><span>Nossos</span> Serviços</h2>    
+        <div id="cards"  class="cards">
+            <div class="card">   
                 <h3>Moda com Propósito</h3>
                 <p>Identidade visual, logotipo, manual da marca.</p>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
@@ -120,13 +121,14 @@
     </section>
 
     <!-- Contato -->
-    <section class="newsletter" aria-label="Formulário  cupom de primeira compra">
-    <h3>Coloque seu email e ganhe um desconto</h3>
+    <section id="newsletter" class="newsletter" aria-label="Formulário  cupom de primeira compra">
+    <h3>Coloque seu email e informe seu problema</h3>
     <form action="#" method="post" class="newsletter-form" novalidate>
       <label for="name">Nome: </label>
       <input type="text" id="name" name="name" required aria-required="" placeholder="Seu nome" />
       <label for="email">E-mail: </label>
       <input type="email" id="email" name="email" required aria-required="" placeholder="Digite seu e-mail" />
+      <input type="email" id="email" name="email" required aria-required="" placeholder="Digite seu problema" />
       <button type="submit">Enviar</button>
     </form>
   </section>

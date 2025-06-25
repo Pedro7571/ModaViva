@@ -127,7 +127,7 @@ body {
   fill: none;
 }
 
-/* Estilos para a barra de pesquisa */
+/* Estilo para a barra de pesquisa */
 .search-container {
   position: relative;
   width: 320px;
@@ -278,10 +278,25 @@ p {
 }
 
 /* Serviços */
+#servicos .card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #f3f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .servicos {
   padding: 2rem;
   background-color: #e0f4e3;
   text-align: center;
+  
 }
 
 .servicos h2 {
@@ -297,10 +312,17 @@ p {
 
 .card{
     flex: 1; 
-    margin: 20px; 
+    margin: 10px; 
+    padding: 10px 80px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    text-align: center; /
+    border-radius: 20px;
+    text-align: center; 
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card:hover {
@@ -324,7 +346,8 @@ p {
 
 }
 
-/* --------------servicos--------- */
+/* --------------Nossos servicos--------- */
+
 .titulo span {
   color: #321B03; /* Cor de 'a nossa agência' */
   border-bottom: 3px solid #656565;
@@ -603,7 +626,7 @@ section.newsletter {
         flex: 1 1 100%;
       }
       .razao-image-container img {  
-        max-width: 100%;
+        max-width: 100%;  
       }c
       .razao-gallery {
         grid-template-columns: 1fr;
